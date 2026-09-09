@@ -8,6 +8,8 @@ import torch
 import numpy as np
 import pandas as pd
 
+from src.semantic.contribution import SemanticContribution
+
 
 def compute_semantic_contribution(embeddings: torch.Tensor) -> dict:
     """
@@ -231,6 +233,6 @@ def compute_joint_suitability(
         p_norm = (spectral_scores - spec_min) / (spec_max - spec_min + 1e-8)
 
     # Joint suitability (multiplicative, per mission spec)
-    joint = (s_norm ** alpha) * (p_norm ** beta)
+    joint = (semantic_suitability ** alpha) * (p_norm ** beta)
 
     return joint
