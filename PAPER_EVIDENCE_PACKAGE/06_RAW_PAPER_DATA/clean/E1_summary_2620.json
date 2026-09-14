@@ -1,0 +1,228 @@
+{
+  "methods": [
+    {
+      "method": "joint",
+      "aggregate": {
+        "joint": {
+          "n": 2620,
+          "roundtrip_accuracy": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "direct_accuracy": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "bit_error_rate": {
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "payload_success": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "snr_db": {
+            "mean": 75.37314617042041,
+            "std": 3.765256698196594,
+            "min": 60.13512242913312,
+            "max": 88.23717716623165
+          },
+          "payload_success_rate": 1.0,
+          "mean_delta": 0.004535767516807319
+        },
+        "overall": {
+          "roundtrip_accuracy": 1.0,
+          "direct_accuracy": 1.0,
+          "bit_error_rate": 0.0,
+          "payload_success": 1.0,
+          "n": 2620
+        }
+      },
+      "n": 2620
+    },
+    {
+      "method": "semantic",
+      "aggregate": {
+        "semantic": {
+          "n": 2620,
+          "roundtrip_accuracy": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "direct_accuracy": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "bit_error_rate": {
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "payload_success": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "snr_db": {
+            "mean": 73.30030670278668,
+            "std": 3.79751682654288,
+            "min": 58.14198486016168,
+            "max": 85.40305168664264
+          },
+          "payload_success_rate": 1.0,
+          "mean_delta": 0.005839389670490934
+        },
+        "overall": {
+          "roundtrip_accuracy": 1.0,
+          "direct_accuracy": 1.0,
+          "bit_error_rate": 0.0,
+          "payload_success": 1.0,
+          "n": 2620
+        }
+      },
+      "n": 2620
+    },
+    {
+      "method": "spectral",
+      "aggregate": {
+        "spectral": {
+          "n": 2620,
+          "roundtrip_accuracy": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "direct_accuracy": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "bit_error_rate": {
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "payload_success": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "snr_db": {
+            "mean": 77.16250921273118,
+            "std": 4.092968909190715,
+            "min": 60.920606416929346,
+            "max": 90.80191053801659
+          },
+          "payload_success_rate": 1.0,
+          "mean_delta": 0.003538748385555303
+        },
+        "overall": {
+          "roundtrip_accuracy": 1.0,
+          "direct_accuracy": 1.0,
+          "bit_error_rate": 0.0,
+          "payload_success": 1.0,
+          "n": 2620
+        }
+      },
+      "n": 2620
+    },
+    {
+      "method": "random",
+      "aggregate": {
+        "random": {
+          "n": 2620,
+          "roundtrip_accuracy": {
+            "mean": 0.9999985090648855,
+            "std": 7.630034340364971e-05,
+            "min": 0.99609375,
+            "max": 1.0
+          },
+          "direct_accuracy": {
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "bit_error_rate": {
+            "mean": 1.4909351145038168e-06,
+            "std": 7.630034340364973e-05,
+            "min": 0.0,
+            "max": 0.00390625
+          },
+          "payload_success": {
+            "mean": 0.999618320610687,
+            "std": 0.01953288791133433,
+            "min": 0.0,
+            "max": 1.0
+          },
+          "snr_db": {
+            "mean": 74.25093142796001,
+            "std": 4.032597414871732,
+            "min": 58.56668119447926,
+            "max": 86.51331249895819
+          },
+          "payload_success_rate": 0.999618320610687,
+          "mean_delta": 0.005000822424163459
+        },
+        "overall": {
+          "roundtrip_accuracy": 0.9999985090648855,
+          "direct_accuracy": 1.0,
+          "bit_error_rate": 1.4909351145038168e-06,
+          "payload_success": 0.999618320610687,
+          "n": 2620
+        }
+      },
+      "n": 2620
+    }
+  ],
+  "experiment_id": "final-E1",
+  "config": {
+    "sample_rate": 16000,
+    "n_fft": 1024,
+    "hop_length": 320,
+    "win_length": 1024,
+    "n_mels": 80,
+    "payload_bits": 256,
+    "redundancy": 3,
+    "alpha": 0.7,
+    "beta": 0.3,
+    "delta_min": 0.002,
+    "delta_max": 0.008,
+    "fixed_delta": 0.005,
+    "hubert_model": "facebook/hubert-base-ls960",
+    "hubert_dim": 768,
+    "boundary_exclude_frames": 1,
+    "freq_start_ratio": 0.05,
+    "freq_end_ratio": 0.95,
+    "extraction": "reference-based",
+    "verification": "populated majority vote over R replicas",
+    "dataset": "LibriSpeech test-clean (2620 recordings, 40 speakers, 16kHz)",
+    "config_version": "1.0",
+    "stft": {
+      "center": true,
+      "window": "hann",
+      "pad_mode": "reflect"
+    }
+  },
+  "config_hash": "cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095",
+  "git_commit": "b33000929396cb592a8dcf8bc8450a21ba6dc998",
+  "torch_version": "2.13.0"
+}

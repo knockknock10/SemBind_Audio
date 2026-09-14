@@ -1,0 +1,56 @@
+{
+  "run_type": "DIAGNOSTIC_VISUALIZATION_ONLY",
+  "note": "Not an experiment; does not modify E1-E14. Re-uses frozen methodology unchanged.",
+  "audio_ids": [
+    "61-70968-0021",
+    "121-127105-0007",
+    "8230-279154-0013"
+  ],
+  "runs": [
+    {
+      "audio_id": "61-70968-0021",
+      "audio_path": "data/raw/librispeech/test-clean/61/70968/61-70968-0021.flac",
+      "sample_rate": 16000,
+      "duration_seconds": 2.69,
+      "stft_frames": 135,
+      "hubert_frames": 134,
+      "n_coordinates": 768,
+      "n_unique": 768
+    },
+    {
+      "audio_id": "121-127105-0007",
+      "audio_path": "data/raw/librispeech/test-clean/121/127105/121-127105-0007.flac",
+      "sample_rate": 16000,
+      "duration_seconds": 5.79,
+      "stft_frames": 290,
+      "hubert_frames": 289,
+      "n_coordinates": 768,
+      "n_unique": 768
+    },
+    {
+      "audio_id": "8230-279154-0013",
+      "audio_path": "data/raw/librispeech/test-clean/8230/279154/8230-279154-0013.flac",
+      "sample_rate": 16000,
+      "duration_seconds": 14.56,
+      "stft_frames": 729,
+      "hubert_frames": 727,
+      "n_coordinates": 768,
+      "n_unique": 768
+    }
+  ],
+  "git_commit_at_run": "7f6ba676b74a6cc93ca8e5422dced3f881d8ad77",
+  "config_hash": "cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095",
+  "methodology_module": "final_methodology.py",
+  "methodology_constants": {
+    "N_FFT": 1024,
+    "HOP_LENGTH": 320,
+    "WIN_LENGTH": 1024,
+    "PAYLOAD_BITS": 256,
+    "REDUNDANCY": 3,
+    "ALPHA": 0.7,
+    "BETA": 0.3,
+    "DELTA_MIN": 0.002,
+    "DELTA_MAX": 0.008
+  },
+  "payload_hash_sha256": "c362365c7dde5c843fb1eb7027a04ae063f1ebf171a8f184777bbf7b9c529ead"
+}

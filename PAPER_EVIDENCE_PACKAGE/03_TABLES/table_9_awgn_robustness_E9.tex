@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{AWGN robustness E9 (n=500 per level). Bit accuracy collapses toward 0.5 (chance) with noise; payload success is 0 under every AWGN level.}
+\label{tab:awgn-e9}
+\scriptsize
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Attack} & \textbf{$n$} & \textbf{Bit acc.} & \textbf{BER} & \textbf{Payload succ.} \\
+\midrule
+None & 500 & 100.00\% & 0.00\% & 100.00\% \\
+AWGN 40 dB & 500 & 62.48\% & 37.52\% & 0.00\% \\
+AWGN 30 dB & 500 & 54.10\% & 45.90\% & 0.00\% \\
+AWGN 20 dB & 500 & 51.24\% & 48.76\% & 0.00\% \\
+AWGN 10 dB & 500 & 50.44\% & 49.56\% & 0.00\% \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize The sparse signed-coefficient formulation is NOT robust to AWGN; this table documents the limitation.}\\
+\end{tabular}
+\end{table}

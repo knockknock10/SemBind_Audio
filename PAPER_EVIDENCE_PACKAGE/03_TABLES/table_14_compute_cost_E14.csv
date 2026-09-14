@@ -1,0 +1,5 @@
+method,n,total_seconds,s_per_recording,embeddings_s,embed+istft_s,allocation_s
+joint,2620,40.6,0.0155,0.0007,0.0115,0.0017
+semantic,2620,40.7,0.0155,0.0007,0.0115,0.0017
+spectral,2620,37.4,0.0143,0.0000,0.0114,0.0016
+random,2620,38.4,0.0147,0.0000,0.0115,0.0019

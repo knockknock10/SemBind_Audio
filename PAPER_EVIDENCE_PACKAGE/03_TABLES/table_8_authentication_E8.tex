@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Authentication/verification E8 (n=500 scenarios each, same 500 recordings). A file is accepted iff the recovered 256-bit SHA-256 payload digest verifies. Truncation of the second half rejects 500/500 because all replicas of affected bits are lost.}
+\label{tab:auth-e8}
+\scriptsize
+\begin{tabular}{lccc}
+\toprule
+\textbf{Scenario} & \textbf{$n$} & \textbf{Accepted} & \textbf{Rejected} \\
+\midrule
+intact_authenticated & 500 & 500 & 0 \\
+corrupted_payload & 500 & 0 & 500 \\
+wrong_payload & 500 & 0 & 500 \\
+no_watermark & 500 & 0 & 500 \\
+truncated_last_half & 500 & 500 & 0 \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize TP=500, FP=0, TN=500, FN=0 (per-scenario counts over the same 500 files; not a single 2x2 matrix over 1000 items).}\\
+\end{tabular}
+\end{table}

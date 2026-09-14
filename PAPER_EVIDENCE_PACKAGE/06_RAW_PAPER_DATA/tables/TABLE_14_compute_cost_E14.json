@@ -1,0 +1,14 @@
+{
+  "joint": {
+    "total_s": 40.6
+  },
+  "semantic": {
+    "total_s": 40.7
+  },
+  "spectral": {
+    "total_s": 37.4
+  },
+  "random": {
+    "total_s": 38.4
+  }
+}

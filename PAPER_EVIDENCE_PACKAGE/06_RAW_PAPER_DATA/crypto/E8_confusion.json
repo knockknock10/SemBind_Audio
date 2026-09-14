@@ -1,0 +1,43 @@
+{
+  "confusion": {
+    "tp": 500,
+    "fp": 0,
+    "tn": 500,
+    "fn": 0,
+    "n": 500,
+    "truncation_rejected": 500
+  },
+  "detail_count": 500,
+  "experiment_id": "final-E8",
+  "config": {
+    "sample_rate": 16000,
+    "n_fft": 1024,
+    "hop_length": 320,
+    "win_length": 1024,
+    "n_mels": 80,
+    "payload_bits": 256,
+    "redundancy": 3,
+    "alpha": 0.7,
+    "beta": 0.3,
+    "delta_min": 0.002,
+    "delta_max": 0.008,
+    "fixed_delta": 0.005,
+    "hubert_model": "facebook/hubert-base-ls960",
+    "hubert_dim": 768,
+    "boundary_exclude_frames": 1,
+    "freq_start_ratio": 0.05,
+    "freq_end_ratio": 0.95,
+    "extraction": "reference-based",
+    "verification": "populated majority vote over R replicas",
+    "dataset": "LibriSpeech test-clean (2620 recordings, 40 speakers, 16kHz)",
+    "config_version": "1.0",
+    "stft": {
+      "center": true,
+      "window": "hann",
+      "pad_mode": "reflect"
+    }
+  },
+  "config_hash": "cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095",
+  "git_commit": "b33000929396cb592a8dcf8bc8450a21ba6dc998",
+  "torch_version": "2.13.0"
+}

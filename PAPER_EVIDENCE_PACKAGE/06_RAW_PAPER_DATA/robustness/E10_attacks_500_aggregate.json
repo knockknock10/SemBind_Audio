@@ -1,0 +1,212 @@
+{
+  "aggregate": {
+    "none": {
+      "n": 500,
+      "bit_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "bit_error_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "payload_success": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "snr_db": {
+        "mean": 74.81824533247608,
+        "std": 3.413051194406099,
+        "min": 64.39243189081647,
+        "max": 83.91404585503241
+      },
+      "payload_success_rate": 1.0
+    },
+    "resample_8k": {
+      "n": 500,
+      "bit_accuracy": {
+        "mean": 0.7371015625,
+        "std": 0.02621754294562076,
+        "min": 0.6640625,
+        "max": 0.8515625
+      },
+      "bit_error_rate": {
+        "mean": 0.2628984375,
+        "std": 0.02621754294562076,
+        "min": 0.1484375,
+        "max": 0.3359375
+      },
+      "payload_success": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "snr_db": {
+        "mean": 74.81824533247608,
+        "std": 3.413051194406099,
+        "min": 64.39243189081647,
+        "max": 83.91404585503241
+      },
+      "payload_success_rate": 0.0
+    },
+    "lowpass_4k": {
+      "n": 500,
+      "bit_accuracy": {
+        "mean": 0.5034140625,
+        "std": 0.033686763493514314,
+        "min": 0.4140625,
+        "max": 0.59375
+      },
+      "bit_error_rate": {
+        "mean": 0.4965859375,
+        "std": 0.033686763493514314,
+        "min": 0.40625,
+        "max": 0.5859375
+      },
+      "payload_success": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "snr_db": {
+        "mean": 74.81824533247608,
+        "std": 3.413051194406099,
+        "min": 64.39243189081647,
+        "max": 83.91404585503241
+      },
+      "payload_success_rate": 0.0
+    },
+    "scale_0.9": {
+      "n": 500,
+      "bit_accuracy": {
+        "mean": 0.7941015625,
+        "std": 0.06937239358490681,
+        "min": 0.546875,
+        "max": 0.98828125
+      },
+      "bit_error_rate": {
+        "mean": 0.2058984375,
+        "std": 0.06937239358490681,
+        "min": 0.01171875,
+        "max": 0.453125
+      },
+      "payload_success": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "snr_db": {
+        "mean": 74.81824533247608,
+        "std": 3.413051194406099,
+        "min": 64.39243189081647,
+        "max": 83.91404585503241
+      },
+      "payload_success_rate": 0.0
+    },
+    "mp3_128": {
+      "n": 500,
+      "bit_accuracy": {
+        "mean": 0.63203125,
+        "std": 0.05912519407341298,
+        "min": 0.48828125,
+        "max": 0.80859375
+      },
+      "bit_error_rate": {
+        "mean": 0.36796875,
+        "std": 0.05912519407341298,
+        "min": 0.19140625,
+        "max": 0.51171875
+      },
+      "payload_success": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "snr_db": {
+        "mean": 74.81824533247608,
+        "std": 3.413051194406099,
+        "min": 64.39243189081647,
+        "max": 83.91404585503241
+      },
+      "payload_success_rate": 0.0
+    },
+    "awgn_20db": {
+      "n": 500,
+      "bit_accuracy": {
+        "mean": 0.5123828125,
+        "std": 0.03146437698482156,
+        "min": 0.4296875,
+        "max": 0.6171875
+      },
+      "bit_error_rate": {
+        "mean": 0.4876171875,
+        "std": 0.03146437698482156,
+        "min": 0.3828125,
+        "max": 0.5703125
+      },
+      "payload_success": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "snr_db": {
+        "mean": 74.81824533247608,
+        "std": 3.413051194406099,
+        "min": 64.39243189081647,
+        "max": 83.91404585503241
+      },
+      "payload_success_rate": 0.0
+    },
+    "overall": {
+      "bit_accuracy": 0.6965052083333333,
+      "bit_error_rate": 0.30349479166666665,
+      "payload_success": 0.16666666666666666,
+      "snr_db": 74.8182453324761,
+      "n": 3000
+    }
+  },
+  "experiment_id": "final-E10",
+  "config": {
+    "sample_rate": 16000,
+    "n_fft": 1024,
+    "hop_length": 320,
+    "win_length": 1024,
+    "n_mels": 80,
+    "payload_bits": 256,
+    "redundancy": 3,
+    "alpha": 0.7,
+    "beta": 0.3,
+    "delta_min": 0.002,
+    "delta_max": 0.008,
+    "fixed_delta": 0.005,
+    "hubert_model": "facebook/hubert-base-ls960",
+    "hubert_dim": 768,
+    "boundary_exclude_frames": 1,
+    "freq_start_ratio": 0.05,
+    "freq_end_ratio": 0.95,
+    "extraction": "reference-based",
+    "verification": "populated majority vote over R replicas",
+    "dataset": "LibriSpeech test-clean (2620 recordings, 40 speakers, 16kHz)",
+    "config_version": "1.0",
+    "stft": {
+      "center": true,
+      "window": "hann",
+      "pad_mode": "reflect"
+    }
+  },
+  "config_hash": "cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095",
+  "git_commit": "b33000929396cb592a8dcf8bc8450a21ba6dc998",
+  "torch_version": "2.13.0",
+  "extra": {}
+}

@@ -1,0 +1,6 @@
+scenario,n,accepted,rejected
+intact_authenticated,500,500,0
+corrupted_payload,500,0,500
+wrong_payload,500,0,500
+no_watermark,500,0,500
+truncated_last_half,500,500,0

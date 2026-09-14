@@ -1,0 +1,44 @@
+[
+  {
+    "a": "joint",
+    "b": "semantic",
+    "t": 203.00782526361075,
+    "p": 0.0,
+    "delta_mean_snr_A_minus_B": 2.0728394676337274
+  },
+  {
+    "a": "joint",
+    "b": "spectral",
+    "t": -126.4286795254889,
+    "p": 0.0,
+    "delta_mean_snr_A_minus_B": -1.789363042310768
+  },
+  {
+    "a": "joint",
+    "b": "random",
+    "t": 71.93424120070598,
+    "p": 0.0,
+    "delta_mean_snr_A_minus_B": 1.1222147424604003
+  },
+  {
+    "a": "semantic",
+    "b": "spectral",
+    "t": -213.86973379492247,
+    "p": 0.0,
+    "delta_mean_snr_A_minus_B": -3.8622025099444954
+  },
+  {
+    "a": "random",
+    "b": "semantic",
+    "t": 81.17585243015984,
+    "p": 0.0,
+    "delta_mean_snr_A_minus_B": 0.9506247251733271
+  },
+  {
+    "a": "random",
+    "b": "spectral",
+    "t": -193.10140092074164,
+    "p": 0.0,
+    "delta_mean_snr_A_minus_B": -2.9115777847711684
+  }
+]

@@ -1,0 +1,41 @@
+\begin{table}[t]
+\centering
+\caption{Dataset and experimental configuration. Configuration hash cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095.}
+\label{tab:dataset-config}
+\scriptsize
+\begin{tabular}{ll}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+Sample rate (Hz) & 16000 \\
+STFT FFT size & 1024 \\
+Hop length (samples) & 320 \\
+Window length (samples) & 1024 \\
+Payload size (bits) & 256 \\
+Replica redundancy R & 3 \\
+Semantic weight \alpha & 0.7 \\
+Spectral weight \beta & 0.3 \\
+Min embedding strength & 0.002 \\
+Max embedding strength & 0.008 \\
+Fixed strength (E3/E6) & 0.005 \\
+Dataset & LibriSpeech test-clean (16 kHz) \\
+Recordings & 2620 \\
+Speakers & 40 \\
+Total duration & 5.40 h (mean 7.42 s, median 5.79 s) \\
+Evaluation subset E2-E10 & First 500 rows of evaluation\_manifest.csv \\
+HuBERT model & facebook/hubert-base-ls960 \\
+HuBERT feature dim & 768 \\
+Contribution & $\Delta_i = 1 - \cos(G, G^{(-i)})$ \\
+Semantic suitability & $S = \mathrm{minmax}(1 - \mathrm{minmax}(\Delta))$ \\
+Spectral suitability & $P = \mathrm{minmax}(\mathrm{mean}_{f} \log(1+|X[f,t]|))$ \\
+Joint suitability & $J = \max(S,\epsilon)^\alpha \max(P,\epsilon)^\beta$ \\
+Adaptive strength & $\delta = \delta_{\mathrm{min}} + (\delta_{\mathrm{max}}-\delta_{\mathrm{min}}) J$ \\
+Coordinate allocation & 256 bits $\times R$; thirds-separated replicas; coprime freq stride; unique coords \\
+Embedding & Bipolar additive $\mathrm{Re}\pm\delta$ \\
+Extraction & Reference sign + majority vote over $R$ \\
+Verification & SHA-256 payload digest (256-bit) \\
+Config hash & cf10755c13a0\ldots 31095 \\
+\bottomrule
+\multicolumn{2}{l}{\footnotesize Config from results/final_clean/E1/E1_summary_2620.json (identical in all E1-E14 metadata).}\\
+\end{tabular}
+\end{table}

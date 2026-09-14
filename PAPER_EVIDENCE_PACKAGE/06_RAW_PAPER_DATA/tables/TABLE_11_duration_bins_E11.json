@@ -1,0 +1,32 @@
+{
+  "<4s": {
+    "n": 770,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 72.5393029621022,
+    "payload_success_rate": 1.0
+  },
+  "4-8s": {
+    "n": 991,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 74.97662218366567,
+    "payload_success_rate": 1.0
+  },
+  "8-12s": {
+    "n": 428,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 77.30318503782678,
+    "payload_success_rate": 1.0
+  },
+  "12-20s": {
+    "n": 339,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 79.08286213420153,
+    "payload_success_rate": 1.0
+  },
+  ">20s": {
+    "n": 92,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 80.71406132593397,
+    "payload_success_rate": 1.0
+  }
+}

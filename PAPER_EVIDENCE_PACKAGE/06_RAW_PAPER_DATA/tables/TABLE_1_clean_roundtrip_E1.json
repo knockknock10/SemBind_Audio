@@ -1,0 +1,30 @@
+{
+  "joint": {
+    "n": 2620,
+    "payload_success_rate": 1.0,
+    "roundtrip_acc": 1.0,
+    "ber": 0.0,
+    "snr_db": 75.37
+  },
+  "semantic": {
+    "n": 2620,
+    "payload_success_rate": 1.0,
+    "roundtrip_acc": 1.0,
+    "ber": 0.0,
+    "snr_db": 73.3
+  },
+  "spectral": {
+    "n": 2620,
+    "payload_success_rate": 1.0,
+    "roundtrip_acc": 1.0,
+    "ber": 0.0,
+    "snr_db": 77.16
+  },
+  "random": {
+    "n": 2620,
+    "payload_success_rate": 0.9996,
+    "roundtrip_acc": 1.0,
+    "ber": 1e-06,
+    "snr_db": 74.25
+  }
+}

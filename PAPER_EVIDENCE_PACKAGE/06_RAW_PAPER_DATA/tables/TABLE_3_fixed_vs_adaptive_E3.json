@@ -1,0 +1,14 @@
+{
+  "fixed": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 74.2904,
+    "bit_error_rate": 0.0
+  },
+  "adaptive": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 74.8182,
+    "bit_error_rate": 0.0
+  }
+}

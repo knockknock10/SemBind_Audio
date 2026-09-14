@@ -1,0 +1,44 @@
+{
+  "none": {
+    "n": 500,
+    "bit_accuracy": 1.0,
+    "ber": 0.0,
+    "payload_success": 1.0,
+    "snr_db": 74.8182
+  },
+  "resample_8k": {
+    "n": 500,
+    "bit_accuracy": 0.7371,
+    "ber": 0.2629,
+    "payload_success": 0.0,
+    "snr_db": 74.8182
+  },
+  "lowpass_4k": {
+    "n": 500,
+    "bit_accuracy": 0.5034,
+    "ber": 0.4966,
+    "payload_success": 0.0,
+    "snr_db": 74.8182
+  },
+  "scale_0.9": {
+    "n": 500,
+    "bit_accuracy": 0.7941,
+    "ber": 0.2059,
+    "payload_success": 0.0,
+    "snr_db": 74.8182
+  },
+  "mp3_128": {
+    "n": 500,
+    "bit_accuracy": 0.632,
+    "ber": 0.368,
+    "payload_success": 0.0,
+    "snr_db": 74.8182
+  },
+  "awgn_20db": {
+    "n": 500,
+    "bit_accuracy": 0.5124,
+    "ber": 0.4876,
+    "payload_success": 0.0,
+    "snr_db": 74.8182
+  }
+}

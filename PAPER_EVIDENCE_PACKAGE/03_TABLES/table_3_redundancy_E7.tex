@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Replica redundancy trade-off E7 (n=500 per R, joint selection, delta=0.005 profile). Failure = any of 256 payload bits wrong after clean round-trip. R=3 yields the only zero-failure configuration.}
+\label{tab:redundancy-e7}
+\scriptsize
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{$R$} & \textbf{$n$} & \textbf{Roundtrip acc.} & \textbf{BER} & \textbf{Payload succ.} & \textbf{SNR $\mu$ (dB)} & \textbf{Failures} \\
+\midrule
+1 & 500 & 99.99\% & 0.000094 & 99.60\% & 78.89 & 2 \\
+2 & 500 & 99.94\% & 0.000609 & 99.40\% & 76.46 & 3 \\
+3 & 500 & 100.00\% & 0.000000 & 100.00\% & 74.82 & 0 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize R=1 and R=2 are NOT monotonic in payload recovery; R=3 was selected as final config because it achieved zero clean failures (n=500).}\\
+\end{tabular}
+\end{table}

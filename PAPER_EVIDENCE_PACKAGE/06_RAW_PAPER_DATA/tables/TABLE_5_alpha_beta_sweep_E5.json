@@ -1,0 +1,38 @@
+{
+  "1.0": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 72.749,
+    "bit_error_rate": 0.0
+  },
+  "0.75": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 74.5807,
+    "bit_error_rate": 0.0
+  },
+  "0.7": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 74.8182,
+    "bit_error_rate": 0.0
+  },
+  "0.5": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 75.5713,
+    "bit_error_rate": 0.0
+  },
+  "0.25": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 76.2135,
+    "bit_error_rate": 0.0
+  },
+  "0.0": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 76.6287,
+    "bit_error_rate": 0.0
+  }
+}

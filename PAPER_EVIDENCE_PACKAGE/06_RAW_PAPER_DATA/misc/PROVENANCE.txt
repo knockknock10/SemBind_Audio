@@ -1,0 +1,24 @@
+PAPER ANALYSIS — ANTHROPIC/OPENGATE DERIVED ARTIFACTS
+
+All files under results/paper_analysis/ are
+
+    ANALYSIS DERIVED FROM CANONICAL RESULTS.
+
+They are recomputations/aggregations/derivations of the canonical outputs under
+results/final_*; they are NOT new experimental results and never modified any canonical file.
+
+Canonical config hash: cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095
+Git commit: b33000929396cb592a8dcf8bc8450a21ba6dc998
+
+Files
+- E1_distributions.csv            per-method n=2620 distributions (SNR, BER, MSE, RMSE, success)
+- E9_E10_distributions.csv        per-attack n=500 distributions (bit accuracy, BER, success)
+- statistics/E13_effect_sizes.csv Cohen's d_z for the six paired SNR comparisons (from E1 CSVs)
+- table_recalc.json               recomputation of every stored table value from raw sources
+
+Sources (read-only): results/final_clean/E1/*.csv, results/final_ablations/*.csv,
+results/final_crypto/E8/*, results/final_robustness/*.csv, results/final_analysis/*.json,
+results/final_tables/*.json.
+
+Generation script: /var/folders/s1/klx9g37132x_lllq_444b4vr0000gn/T/opencode/paper_analysis.py
+Generated: 2026-09-09

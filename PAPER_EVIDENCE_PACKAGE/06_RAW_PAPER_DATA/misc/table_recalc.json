@@ -1,0 +1,330 @@
+{
+  "TABLE_1": {
+    "joint": {
+      "n": 2620,
+      "payload_success_rate": 1.0,
+      "roundtrip_acc": 1.0,
+      "ber": 0.0,
+      "snr_db": 75.373146
+    },
+    "semantic": {
+      "n": 2620,
+      "payload_success_rate": 1.0,
+      "roundtrip_acc": 1.0,
+      "ber": 0.0,
+      "snr_db": 73.300307
+    },
+    "spectral": {
+      "n": 2620,
+      "payload_success_rate": 1.0,
+      "roundtrip_acc": 1.0,
+      "ber": 0.0,
+      "snr_db": 77.162509
+    },
+    "random": {
+      "n": 2620,
+      "payload_success_rate": 0.999618,
+      "roundtrip_acc": 0.999999,
+      "ber": 1e-06,
+      "snr_db": 74.250931
+    }
+  },
+  "TABLE_2": {
+    "snr_mean_db": 74.818245,
+    "snr_p95_db": 79.907354
+  },
+  "TABLE_3": {
+    "fixed": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.290425,
+      "bit_error_rate": 0.0
+    },
+    "adaptive": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.818245,
+      "bit_error_rate": 0.0
+    }
+  },
+  "TABLE_4": {
+    "A_semantic_only": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 72.749022,
+      "bit_error_rate": 0.0
+    },
+    "B_spectral_only": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 76.628651,
+      "bit_error_rate": 0.0
+    },
+    "C_same_distortion_fixed": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.290425,
+      "bit_error_rate": 0.0
+    },
+    "D_random": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 73.804836,
+      "bit_error_rate": 0.0
+    }
+  },
+  "TABLE_5": {
+    "1.0": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 72.749022,
+      "bit_error_rate": 0.0
+    },
+    "0.75": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.580729,
+      "bit_error_rate": 0.0
+    },
+    "0.7": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.818245,
+      "bit_error_rate": 0.0
+    },
+    "0.5": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 75.571317,
+      "bit_error_rate": 0.0
+    },
+    "0.25": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 76.213475,
+      "bit_error_rate": 0.0
+    },
+    "0.0": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 76.628651,
+      "bit_error_rate": 0.0
+    }
+  },
+  "TABLE_6": {
+    "0.0005": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 93.871262,
+      "bit_error_rate": 0.0
+    },
+    "0.001": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 88.164435,
+      "bit_error_rate": 0.0
+    },
+    "0.002": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 82.225953,
+      "bit_error_rate": 0.0
+    },
+    "0.005": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.290425,
+      "bit_error_rate": 0.0
+    },
+    "0.008": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 70.210737,
+      "bit_error_rate": 0.0
+    },
+    "0.01": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 68.273159,
+      "bit_error_rate": 0.0
+    }
+  },
+  "TABLE_7": {
+    "1": {
+      "n": 500.0,
+      "roundtrip_accuracy": 0.999906,
+      "snr_db": 78.887008,
+      "bit_error_rate": 9.4e-05
+    },
+    "2": {
+      "n": 500.0,
+      "roundtrip_accuracy": 0.999391,
+      "snr_db": 76.459764,
+      "bit_error_rate": 0.000609
+    },
+    "3": {
+      "n": 500.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.818245,
+      "bit_error_rate": 0.0
+    }
+  },
+  "TABLE_8": {
+    "tp": 500,
+    "fp": 0,
+    "tn": 500,
+    "fn": 0,
+    "n": 500,
+    "truncation_rejected": 500
+  },
+  "TABLE_9": {
+    "none": {
+      "n": 500.0,
+      "bit_accuracy": 1.0,
+      "ber": 0.0,
+      "payload_success": 1.0
+    },
+    "awgn_40db": {
+      "n": 500.0,
+      "bit_accuracy": 0.624828,
+      "ber": 0.375172,
+      "payload_success": 0.0
+    },
+    "awgn_30db": {
+      "n": 500.0,
+      "bit_accuracy": 0.541,
+      "ber": 0.459,
+      "payload_success": 0.0
+    },
+    "awgn_20db": {
+      "n": 500.0,
+      "bit_accuracy": 0.512383,
+      "ber": 0.487617,
+      "payload_success": 0.0
+    },
+    "awgn_10db": {
+      "n": 500.0,
+      "bit_accuracy": 0.504367,
+      "ber": 0.495633,
+      "payload_success": 0.0
+    }
+  },
+  "TABLE_10": {
+    "none": {
+      "n": 500.0,
+      "bit_accuracy": 1.0,
+      "ber": 0.0,
+      "payload_success": 1.0
+    },
+    "resample_8k": {
+      "n": 500.0,
+      "bit_accuracy": 0.737102,
+      "ber": 0.262898,
+      "payload_success": 0.0
+    },
+    "lowpass_4k": {
+      "n": 500.0,
+      "bit_accuracy": 0.503414,
+      "ber": 0.496586,
+      "payload_success": 0.0
+    },
+    "scale_0.9": {
+      "n": 500.0,
+      "bit_accuracy": 0.794102,
+      "ber": 0.205898,
+      "payload_success": 0.0
+    },
+    "mp3_128": {
+      "n": 500.0,
+      "bit_accuracy": 0.632031,
+      "ber": 0.367969,
+      "payload_success": 0.0
+    },
+    "awgn_20db": {
+      "n": 500.0,
+      "bit_accuracy": 0.512383,
+      "ber": 0.487617,
+      "payload_success": 0.0
+    }
+  },
+  "TABLE_11": {
+    "<4s": {
+      "n": 770.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 72.539303,
+      "payload_success_rate": 1.0
+    },
+    "4-8s": {
+      "n": 991.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.976622,
+      "payload_success_rate": 1.0
+    },
+    "8-12s": {
+      "n": 428.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 77.303185,
+      "payload_success_rate": 1.0
+    },
+    "12-20s": {
+      "n": 339.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 79.082862,
+      "payload_success_rate": 1.0
+    },
+    ">20s": {
+      "n": 92.0,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 80.714061,
+      "payload_success_rate": 1.0
+    }
+  },
+  "TABLE_12": {
+    "speakers": 40,
+    "worst_speaker_success": 1.0
+  },
+  "TABLE_13": [
+    [
+      "joint",
+      "semantic",
+      203.007825,
+      0.0
+    ],
+    [
+      "joint",
+      "spectral",
+      -126.42868,
+      0.0
+    ],
+    [
+      "joint",
+      "random",
+      71.934241,
+      0.0
+    ],
+    [
+      "semantic",
+      "spectral",
+      -213.869734,
+      0.0
+    ],
+    [
+      "random",
+      "semantic",
+      81.175852,
+      0.0
+    ],
+    [
+      "random",
+      "spectral",
+      -193.101401,
+      0.0
+    ]
+  ],
+  "TABLE_14": {
+    "joint": 40.6311,
+    "semantic": 40.6553,
+    "spectral": 37.403,
+    "random": 38.4409
+  }
+}

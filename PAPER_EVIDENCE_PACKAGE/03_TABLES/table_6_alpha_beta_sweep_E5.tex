@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Suitability weight sweep E5 (n=500 each). $\alpha$ weights semantic suitability $S$, $\beta$ weights spectral suitability $P$ in $J = \max(S,\epsilon)^\alpha \max(P,\epsilon)^\beta$. Clean recovery is perfect for all configurations; mean SNR increases monotonically toward the spectral end.}
+\label{tab:alphabetasweep-e5}
+\scriptsize
+\begin{tabular}{lccccc}
+\toprule
+\textbf{$\alpha$} & \textbf{$\beta$} & \textbf{$n$} & \textbf{RT acc} & \textbf{Payload succ.} & \textbf{SNR $\mu$ (dB)} \\
+\midrule
+1.00 & 0.00 & 500 & 100.00\% & 0.000000 & 100.00\% & 72.75 \\
+0.75 & 0.25 & 500 & 100.00\% & 0.000000 & 100.00\% & 74.58 \\
+0.70 & 0.30 & 500 & 100.00\% & 0.000000 & 100.00\% & 74.82 \\
+0.50 & 0.50 & 500 & 100.00\% & 0.000000 & 100.00\% & 75.57 \\
+0.25 & 0.75 & 500 & 100.00\% & 0.000000 & 100.00\% & 76.21 \\
+0.00 & 1.00 & 500 & 100.00\% & 0.000000 & 100.00\% & 76.63 \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize BER=0 and RT acc=100% for all rows (not shown). Final config alpha=0.70, beta=0.30.}\\
+\end{tabular}
+\end{table}

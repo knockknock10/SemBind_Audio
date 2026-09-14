@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Selection ablation E4 (n=500 each, adaptive strength where applicable; C uses constant delta=0.005 to equalize distortion). Ordering of mean clean SNR: spectral > joint > random > semantic. Joint reference row taken from E2 (same first-500 subset, adaptive, R=3).}
+\label{tab:selection-e4}
+\scriptsize
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Method} & \textbf{$n$} & \textbf{RT acc} & \textbf{BER} & \textbf{Payload succ.} & \textbf{SNR $\mu$ (dB)} & \textbf{$\bar{\delta}$} \\
+\midrule
+Semantic-only & 500 & 100.00\% & 0.000000 & 100.00\% & 72.75 & 0.005912 \\
+Spectral-only & 500 & 100.00\% & 0.000000 & 100.00\% & 76.63 & 0.003576 \\
+Same-distortion fixed & 500 & 100.00\% & 0.000000 & 100.00\% & 74.29 & 0.005000 \\
+Random & 500 & 100.00\% & 0.000000 & 100.00\% & 73.80 & 0.004998 \\
+Joint (S,P) [ref E2] & 500 & 100.00\% & 0.000000 & 100.00\% & 74.82 & 0.004593 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize E4 uses adaptive-delta variants (A,B,D) and constant-delta (C); 'joint' row is E2 result (74.82 dB). Spectral-only has the highest clean SNR and joint sits between semantic and spectral.}\\
+\end{tabular}
+\end{table}

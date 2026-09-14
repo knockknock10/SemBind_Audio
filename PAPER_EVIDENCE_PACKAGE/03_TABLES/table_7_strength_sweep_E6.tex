@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Embedding-strength sweep E6 (n=500 each, constant delta across coordinates, joint allocation). Larger delta lowers SNR but preserves perfect clean recovery over the tested range.}
+\label{tab:strength-e6}
+\scriptsize
+\begin{tabular}{lcccc}
+\toprule
+\textbf{$\delta$} & \textbf{$n$} & \textbf{RT acc} & \textbf{Payload succ.} & \textbf{SNR $\mu$ (dB)} \\
+\midrule
+0.0005 & 500 & 100.00\% & 0.000000 & 100.00\% & 93.87 \\
+0.001 & 500 & 100.00\% & 0.000000 & 100.00\% & 88.16 \\
+0.002 & 500 & 100.00\% & 0.000000 & 100.00\% & 82.23 \\
+0.005 & 500 & 100.00\% & 0.000000 & 100.00\% & 74.29 \\
+0.008 & 500 & 100.00\% & 0.000000 & 100.00\% & 70.21 \\
+0.01 & 500 & 100.00\% & 0.000000 & 100.00\% & 68.27 \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Range 0.0005-0.010; all configurations achieve 100% clean payload recovery (n=500).}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,29 @@
+parameter,value
+Sample rate (Hz),16000
+STFT FFT size,1024
+Hop length (samples),320
+Window length (samples),1024
+Payload size (bits),256
+Replica redundancy R,3
+Semantic weight alpha,0.7
+Spectral weight beta,0.3
+Min embedding strength,0.002
+Max embedding strength,0.008
+Fixed strength (E3/E6),0.005
+Dataset,LibriSpeech test-clean (16 kHz)
+Recordings,2620
+Speakers,40
+Total duration,"5.40 h (mean 7.42 s, median 5.79 s, min 1.29 s, max 34.96 s)"
+Evaluation subset E2-E10,First 500 rows of evaluation_manifest.csv
+HuBERT model,facebook/hubert-base-ls960
+HuBERT feature dim,768
+Contribution,"\Delta_i = 1 - cos(G, G^{(-i)}) (leave-one-out, closed form)"
+Semantic suitability,S = minmax(1 - minmax(\Delta))
+Spectral suitability,"P = minmax(mean_{f in band} log1p(|X[f,t]|))"
+Joint suitability,"J = max(S,\epsilon)^\alpha \cdot max(P,\epsilon)^\beta"
+Adaptive strength,\delta = \delta_{min} + (\delta_{max} - \delta_{min}) J
+Coordinate allocation,"256 bits x R replicas; same-bit replicas in separated timeline thirds; coprime frequency stride; all (freq,time) unique"
+Embedding,"Bipolar additive: bit=1 -> Re+\delta, bit=0 -> Re-\delta"
+Extraction,Reference-based sign(Re(W) - Re(X)) + majority vote over R replicas
+Verification,SHA-256 payload digest compare (256-bit)
+Config hash,cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095

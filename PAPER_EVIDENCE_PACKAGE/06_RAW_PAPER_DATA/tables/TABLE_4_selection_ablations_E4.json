@@ -1,0 +1,26 @@
+{
+  "A_semantic_only": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 72.749,
+    "bit_error_rate": 0.0
+  },
+  "B_spectral_only": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 76.6287,
+    "bit_error_rate": 0.0
+  },
+  "C_same_distortion_fixed": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 74.2904,
+    "bit_error_rate": 0.0
+  },
+  "D_random": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 73.8048,
+    "bit_error_rate": 0.0
+  }
+}

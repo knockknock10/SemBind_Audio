@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Per-record computational timing E14 (cached-embedding pipeline only). HuBERT inference is NOT included; embeddings were loaded from an on-disk cache.}
+\label{tab:compute-e14}
+\scriptsize
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Method} & \textbf{$n$} & \textbf{Total (s)} & \textbf{Per-rec (s)} & \textbf{Embed load (s)} & \textbf{Embed+ISTFT (s)} & \textbf{Alloc (s)} \\
+\midrule
+joint & 2620 & 40.6 & 0.0155 & 0.0007 & 0.0115 & 0.0017 \\
+semantic & 2620 & 40.7 & 0.0155 & 0.0007 & 0.0115 & 0.0017 \\
+spectral & 2620 & 37.4 & 0.0143 & 0.0000 & 0.0114 & 0.0016 \\
+random & 2620 & 38.4 & 0.0147 & 0.0000 & 0.0115 & 0.0019 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Do not report as end-to-end watermarking runtime; HuBERT forward pass excluded.}\\
+\end{tabular}
+\end{table}

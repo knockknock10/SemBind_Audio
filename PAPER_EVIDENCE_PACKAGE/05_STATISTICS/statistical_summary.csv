@@ -1,0 +1,7 @@
+pair,n,mean_diff_SNR_A_minus_B_dB,t_statistic,p_value,cohen_dz
+joint vs semantic,2620,2.0728,203.01,0.0 (underflow),3.966
+joint vs spectral,2620,-1.7894,-126.43,0.0 (underflow),-2.470
+joint vs random,2620,1.1222,71.93,0.0 (underflow),1.405
+semantic vs spectral,2620,-3.8622,-213.87,0.0 (underflow),-4.178
+random vs semantic,2620,0.9506,81.18,0.0 (underflow),1.586
+random vs spectral,2620,-2.9116,-193.10,0.0 (underflow),-3.773

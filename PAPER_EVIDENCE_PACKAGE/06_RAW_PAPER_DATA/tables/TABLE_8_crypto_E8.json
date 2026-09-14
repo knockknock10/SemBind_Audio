@@ -1,0 +1,8 @@
+{
+  "tp": 500,
+  "fp": 0,
+  "tn": 500,
+  "fn": 0,
+  "n": 500,
+  "truncation_rejected": 500
+}

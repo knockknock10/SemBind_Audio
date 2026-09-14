@@ -1,0 +1,66 @@
+{
+  "bins": {
+    "<4s": {
+      "n": 770,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 72.5393029621022,
+      "payload_success_rate": 1.0
+    },
+    "4-8s": {
+      "n": 991,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.97662218366567,
+      "payload_success_rate": 1.0
+    },
+    "8-12s": {
+      "n": 428,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 77.30318503782678,
+      "payload_success_rate": 1.0
+    },
+    "12-20s": {
+      "n": 339,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 79.08286213420153,
+      "payload_success_rate": 1.0
+    },
+    ">20s": {
+      "n": 92,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 80.71406132593397,
+      "payload_success_rate": 1.0
+    }
+  },
+  "experiment_id": "final-E11",
+  "config": {
+    "sample_rate": 16000,
+    "n_fft": 1024,
+    "hop_length": 320,
+    "win_length": 1024,
+    "n_mels": 80,
+    "payload_bits": 256,
+    "redundancy": 3,
+    "alpha": 0.7,
+    "beta": 0.3,
+    "delta_min": 0.002,
+    "delta_max": 0.008,
+    "fixed_delta": 0.005,
+    "hubert_model": "facebook/hubert-base-ls960",
+    "hubert_dim": 768,
+    "boundary_exclude_frames": 1,
+    "freq_start_ratio": 0.05,
+    "freq_end_ratio": 0.95,
+    "extraction": "reference-based",
+    "verification": "populated majority vote over R replicas",
+    "dataset": "LibriSpeech test-clean (2620 recordings, 40 speakers, 16kHz)",
+    "config_version": "1.0",
+    "stft": {
+      "center": true,
+      "window": "hann",
+      "pad_mode": "reflect"
+    }
+  },
+  "config_hash": "cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095",
+  "git_commit": "b33000929396cb592a8dcf8bc8450a21ba6dc998",
+  "torch_version": "2.13.0"
+}

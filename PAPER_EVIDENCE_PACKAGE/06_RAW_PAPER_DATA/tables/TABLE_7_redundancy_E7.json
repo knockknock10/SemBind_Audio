@@ -1,0 +1,20 @@
+{
+  "1": {
+    "n": 500,
+    "roundtrip_accuracy": 0.9999,
+    "snr_db": 78.887,
+    "bit_error_rate": 0.0001
+  },
+  "2": {
+    "n": 500,
+    "roundtrip_accuracy": 0.9994,
+    "snr_db": 76.4598,
+    "bit_error_rate": 0.0006
+  },
+  "3": {
+    "n": 500,
+    "roundtrip_accuracy": 1.0,
+    "snr_db": 74.8182,
+    "bit_error_rate": 0.0
+  }
+}

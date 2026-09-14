@@ -1,0 +1,185 @@
+{
+  "aggregate": {
+    "joint": {
+      "n": 5,
+      "roundtrip_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "direct_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "bit_error_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "payload_success": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "snr_db": {
+        "mean": 75.24244743509743,
+        "std": 1.6195518067981907,
+        "min": 73.54326864552971,
+        "max": 78.12463552624352
+      },
+      "payload_success_rate": 1.0,
+      "mean_delta": 0.004529741406440735
+    },
+    "semantic": {
+      "n": 5,
+      "roundtrip_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "direct_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "bit_error_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "payload_success": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "snr_db": {
+        "mean": 72.98706393720613,
+        "std": 1.8547050604511877,
+        "min": 70.63042256063568,
+        "max": 76.20766061090238
+      },
+      "payload_success_rate": 1.0,
+      "mean_delta": 0.005998238921165466
+    },
+    "spectral": {
+      "n": 5,
+      "roundtrip_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "direct_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "bit_error_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "payload_success": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "snr_db": {
+        "mean": 77.18336711887828,
+        "std": 1.6454323175042558,
+        "min": 74.87137687445036,
+        "max": 79.50394467563117
+      },
+      "payload_success_rate": 1.0,
+      "mean_delta": 0.0034544705413281918
+    },
+    "random": {
+      "n": 5,
+      "roundtrip_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "direct_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "bit_error_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "payload_success": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "snr_db": {
+        "mean": 74.26604543377212,
+        "std": 1.8765574327147438,
+        "min": 71.2725552226976,
+        "max": 76.87583040587926
+      },
+      "payload_success_rate": 1.0,
+      "mean_delta": 0.004919477924704552
+    },
+    "overall": {
+      "roundtrip_accuracy": 1.0,
+      "direct_accuracy": 1.0,
+      "bit_error_rate": 0.0,
+      "payload_success": 1.0,
+      "snr_db": 74.91973098123847,
+      "n": 20
+    }
+  },
+  "experiment_id": "final-sanity",
+  "config": {
+    "sample_rate": 16000,
+    "n_fft": 1024,
+    "hop_length": 320,
+    "win_length": 1024,
+    "n_mels": 80,
+    "payload_bits": 256,
+    "redundancy": 3,
+    "alpha": 0.7,
+    "beta": 0.3,
+    "delta_min": 0.002,
+    "delta_max": 0.008,
+    "fixed_delta": 0.005,
+    "hubert_model": "facebook/hubert-base-ls960",
+    "hubert_dim": 768,
+    "boundary_exclude_frames": 1,
+    "freq_start_ratio": 0.05,
+    "freq_end_ratio": 0.95,
+    "extraction": "reference-based",
+    "verification": "populated majority vote over R replicas",
+    "dataset": "LibriSpeech test-clean (2620 recordings, 40 speakers, 16kHz)",
+    "config_version": "1.0",
+    "stft": {
+      "center": true,
+      "window": "hann",
+      "pad_mode": "reflect"
+    }
+  },
+  "config_hash": "cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095",
+  "git_commit": "b33000929396cb592a8dcf8bc8450a21ba6dc998",
+  "torch_version": "2.13.0",
+  "failures": 0
+}

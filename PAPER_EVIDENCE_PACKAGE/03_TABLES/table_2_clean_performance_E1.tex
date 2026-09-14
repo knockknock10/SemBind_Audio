@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Clean-channel performance on all 2620 LibriSpeech test-clean recordings (no attacks). Payload = 256 bits, R=3. SNR is signal-to-watermark-noise ratio on the time-domain audio.}
+\label{tab:clean-e1}
+\scriptsize
+\begin{tabular}{lcccccccccc}
+\toprule
+\textbf{Method} & \textbf{$n$} & \textbf{RT acc} & \textbf{Direct acc} & \textbf{BER} & \textbf{Payload succ.} & \textbf{SNR $\mu$} & \textbf{SNR $\sigma$} & \textbf{SNR min} & \textbf{SNR max} & \textbf{$\bar{\delta}$} \\
+\midrule
+Joint (S,P) & 2620 & 100.00\% & 100.00\% & 0.000000 & 100.00\% & 75.37 & 3.77 & 60.14 & 88.24 & 0.004536 \\
+Semantic-only & 2620 & 100.00\% & 100.00\% & 0.000000 & 100.00\% & 73.30 & 3.80 & 58.14 & 85.40 & 0.005839 \\
+Spectral-only & 2620 & 100.00\% & 100.00\% & 0.000000 & 100.00\% & 77.16 & 4.09 & 60.92 & 90.80 & 0.003539 \\
+Random & 2620 & 100.00\% & 100.00\% & 0.000001 & 99.96\% & 74.25 & 4.03 & 58.57 & 86.51 & 0.005001 \\
+\bottomrule
+\multicolumn{11}{l}{\footnotesize Random: profile counts one payload failure (audio_id 4446-2275-0028, BER 0.0039). Source results/final_clean/E1/*.csv.}\\
+\end{tabular}
+\end{table}

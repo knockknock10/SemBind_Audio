@@ -1,0 +1,280 @@
+{
+  "per_speaker": {
+    "1089": {
+      "n": 64,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.45115915139542,
+      "payload_success_rate": 1.0
+    },
+    "1188": {
+      "n": 45,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 75.68901868717157,
+      "payload_success_rate": 1.0
+    },
+    "121": {
+      "n": 62,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 73.61487363124586,
+      "payload_success_rate": 1.0
+    },
+    "1221": {
+      "n": 41,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 73.78245914183165,
+      "payload_success_rate": 1.0
+    },
+    "1284": {
+      "n": 63,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 76.3696761646985,
+      "payload_success_rate": 1.0
+    },
+    "1320": {
+      "n": 59,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 78.17100185910573,
+      "payload_success_rate": 1.0
+    },
+    "1580": {
+      "n": 105,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 71.89413752348207,
+      "payload_success_rate": 1.0
+    },
+    "1995": {
+      "n": 72,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 76.67381353026664,
+      "payload_success_rate": 1.0
+    },
+    "2094": {
+      "n": 61,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 78.95998334064626,
+      "payload_success_rate": 1.0
+    },
+    "2300": {
+      "n": 42,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 80.62046259072102,
+      "payload_success_rate": 1.0
+    },
+    "237": {
+      "n": 88,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 75.46372904489562,
+      "payload_success_rate": 1.0
+    },
+    "260": {
+      "n": 82,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 75.27585033625243,
+      "payload_success_rate": 1.0
+    },
+    "2830": {
+      "n": 90,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 76.47862639286386,
+      "payload_success_rate": 1.0
+    },
+    "2961": {
+      "n": 46,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 75.09002053742168,
+      "payload_success_rate": 1.0
+    },
+    "3570": {
+      "n": 50,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 78.59542691501673,
+      "payload_success_rate": 1.0
+    },
+    "3575": {
+      "n": 57,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 77.55126018841385,
+      "payload_success_rate": 1.0
+    },
+    "3729": {
+      "n": 47,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 72.681738452685,
+      "payload_success_rate": 1.0
+    },
+    "4077": {
+      "n": 39,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 77.80131026172613,
+      "payload_success_rate": 1.0
+    },
+    "4446": {
+      "n": 108,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 72.51405683016063,
+      "payload_success_rate": 1.0
+    },
+    "4507": {
+      "n": 60,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.46503043256043,
+      "payload_success_rate": 1.0
+    },
+    "4970": {
+      "n": 63,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 76.43426092812534,
+      "payload_success_rate": 1.0
+    },
+    "4992": {
+      "n": 62,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 75.02432734870841,
+      "payload_success_rate": 1.0
+    },
+    "5105": {
+      "n": 56,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.87882579569929,
+      "payload_success_rate": 1.0
+    },
+    "5142": {
+      "n": 102,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 71.69535033168569,
+      "payload_success_rate": 1.0
+    },
+    "5639": {
+      "n": 42,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 72.48802961743692,
+      "payload_success_rate": 1.0
+    },
+    "5683": {
+      "n": 75,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.90141056607959,
+      "payload_success_rate": 1.0
+    },
+    "61": {
+      "n": 104,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 73.22637737527803,
+      "payload_success_rate": 1.0
+    },
+    "672": {
+      "n": 75,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 73.44179747367865,
+      "payload_success_rate": 1.0
+    },
+    "6829": {
+      "n": 91,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 75.68666523708059,
+      "payload_success_rate": 1.0
+    },
+    "6930": {
+      "n": 78,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 71.08304404789136,
+      "payload_success_rate": 1.0
+    },
+    "7021": {
+      "n": 59,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 78.05468387467906,
+      "payload_success_rate": 1.0
+    },
+    "7127": {
+      "n": 71,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.2648861057972,
+      "payload_success_rate": 1.0
+    },
+    "7176": {
+      "n": 74,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 77.66057925098302,
+      "payload_success_rate": 1.0
+    },
+    "7729": {
+      "n": 47,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 78.18201307449846,
+      "payload_success_rate": 1.0
+    },
+    "8224": {
+      "n": 32,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 80.65935358399872,
+      "payload_success_rate": 1.0
+    },
+    "8230": {
+      "n": 44,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 78.12790210072474,
+      "payload_success_rate": 1.0
+    },
+    "8455": {
+      "n": 71,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 79.0937530488933,
+      "payload_success_rate": 1.0
+    },
+    "8463": {
+      "n": 74,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 74.95359539381452,
+      "payload_success_rate": 1.0
+    },
+    "8555": {
+      "n": 62,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 75.70235985228152,
+      "payload_success_rate": 1.0
+    },
+    "908": {
+      "n": 57,
+      "roundtrip_accuracy": 1.0,
+      "snr_db": 77.31393509559642,
+      "payload_success_rate": 1.0
+    }
+  },
+  "overall": {
+    "speakers": 40,
+    "worst_speaker_success": 1.0
+  },
+  "experiment_id": "final-E12",
+  "config": {
+    "sample_rate": 16000,
+    "n_fft": 1024,
+    "hop_length": 320,
+    "win_length": 1024,
+    "n_mels": 80,
+    "payload_bits": 256,
+    "redundancy": 3,
+    "alpha": 0.7,
+    "beta": 0.3,
+    "delta_min": 0.002,
+    "delta_max": 0.008,
+    "fixed_delta": 0.005,
+    "hubert_model": "facebook/hubert-base-ls960",
+    "hubert_dim": 768,
+    "boundary_exclude_frames": 1,
+    "freq_start_ratio": 0.05,
+    "freq_end_ratio": 0.95,
+    "extraction": "reference-based",
+    "verification": "populated majority vote over R replicas",
+    "dataset": "LibriSpeech test-clean (2620 recordings, 40 speakers, 16kHz)",
+    "config_version": "1.0",
+    "stft": {
+      "center": true,
+      "window": "hann",
+      "pad_mode": "reflect"
+    }
+  },
+  "config_hash": "cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095",
+  "git_commit": "b33000929396cb592a8dcf8bc8450a21ba6dc998",
+  "torch_version": "2.13.0"
+}

@@ -1,0 +1,37 @@
+{
+  "none": {
+    "n": 500,
+    "bit_accuracy": 1.0,
+    "ber": 0.0,
+    "payload_success": 1.0,
+    "snr_db": 74.8182
+  },
+  "awgn_40db": {
+    "n": 500,
+    "bit_accuracy": 0.6248,
+    "ber": 0.3752,
+    "payload_success": 0.0,
+    "snr_db": 74.8182
+  },
+  "awgn_30db": {
+    "n": 500,
+    "bit_accuracy": 0.541,
+    "ber": 0.459,
+    "payload_success": 0.0,
+    "snr_db": 74.8182
+  },
+  "awgn_20db": {
+    "n": 500,
+    "bit_accuracy": 0.5124,
+    "ber": 0.4876,
+    "payload_success": 0.0,
+    "snr_db": 74.8182
+  },
+  "awgn_10db": {
+    "n": 500,
+    "bit_accuracy": 0.5044,
+    "ber": 0.4956,
+    "payload_success": 0.0,
+    "snr_db": 74.8182
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "aggregate": {
+    "1": {
+      "n": 500,
+      "roundtrip_accuracy": {
+        "mean": 0.99990625,
+        "std": 0.0014793500473180786,
+        "min": 0.9765625,
+        "max": 1.0
+      },
+      "direct_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "bit_error_rate": {
+        "mean": 9.375e-05,
+        "std": 0.0014793500473180786,
+        "min": 0.0,
+        "max": 0.0234375
+      },
+      "payload_success": {
+        "mean": 0.996,
+        "std": 0.063118935352238,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "snr_db": {
+        "mean": 78.88700806610069,
+        "std": 3.164718183083202,
+        "min": 68.94094722065931,
+        "max": 87.21331171942218
+      },
+      "payload_success_rate": 0.996,
+      "mean_delta": 0.005053726288024336
+    },
+    "2": {
+      "n": 500,
+      "roundtrip_accuracy": {
+        "mean": 0.999390625,
+        "std": 0.007843360921625051,
+        "min": 0.8984375,
+        "max": 1.0
+      },
+      "direct_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "bit_error_rate": {
+        "mean": 0.000609375,
+        "std": 0.007843360921625051,
+        "min": 0.0,
+        "max": 0.1015625
+      },
+      "payload_success": {
+        "mean": 0.994,
+        "std": 0.07722693830523131,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "snr_db": {
+        "mean": 76.4597639786826,
+        "std": 3.360092803105106,
+        "min": 66.15373161124687,
+        "max": 85.17786934790563
+      },
+      "payload_success_rate": 0.994,
+      "mean_delta": 0.004665840906091035
+    },
+    "3": {
+      "n": 500,
+      "roundtrip_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "direct_accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "bit_error_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "payload_success": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "snr_db": {
+        "mean": 74.81824533247608,
+        "std": 3.413051194406099,
+        "min": 64.39243189081647,
+        "max": 83.91404585503241
+      },
+      "payload_success_rate": 1.0,
+      "mean_delta": 0.004593258695211261
+    },
+    "overall": {
+      "roundtrip_accuracy": 0.999765625,
+      "direct_accuracy": 1.0,
+      "bit_error_rate": 0.000234375,
+      "payload_success": 0.9966666666666667,
+      "n": 1500
+    }
+  },
+  "experiment_id": "final-E7",
+  "config": {
+    "sample_rate": 16000,
+    "n_fft": 1024,
+    "hop_length": 320,
+    "win_length": 1024,
+    "n_mels": 80,
+    "payload_bits": 256,
+    "redundancy": 3,
+    "alpha": 0.7,
+    "beta": 0.3,
+    "delta_min": 0.002,
+    "delta_max": 0.008,
+    "fixed_delta": 0.005,
+    "hubert_model": "facebook/hubert-base-ls960",
+    "hubert_dim": 768,
+    "boundary_exclude_frames": 1,
+    "freq_start_ratio": 0.05,
+    "freq_end_ratio": 0.95,
+    "extraction": "reference-based",
+    "verification": "populated majority vote over R replicas",
+    "dataset": "LibriSpeech test-clean (2620 recordings, 40 speakers, 16kHz)",
+    "config_version": "1.0",
+    "stft": {
+      "center": true,
+      "window": "hann",
+      "pad_mode": "reflect"
+    }
+  },
+  "config_hash": "cf10755c13a0ee3147845724f4f097dccc414c2f2b02eed102d6a2bb21231095",
+  "git_commit": "b33000929396cb592a8dcf8bc8450a21ba6dc998",
+  "torch_version": "2.13.0"
+}
