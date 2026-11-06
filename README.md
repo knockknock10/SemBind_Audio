@@ -47,7 +47,7 @@ Audio quality was evaluated using SNR. MUSHRA and PESQ listening-quality tests w
 - `evaluation_framework.py` is an older evaluation path; its outputs are not the source for the final results.
 - `PAPER_EVIDENCE_PACKAGE/` contains material collected for the paper.
 
-The `environment.yml` file is not yet populated, so a clean environment setup still needs to be documented. The results and code should be checked together before using the numbers in another report or presentation.
+The repository does not currently provide a validated Conda environment or a cross-platform lockfile. `requirements.txt` is a pinned environment capture; it may need a platform-appropriate PyTorch/torchaudio installation before it works on another machine. A starting point for an isolated install is:\n\n\`\`\`sh\npython -m venv .venv\nsource .venv/bin/activate\npython -m pip install --upgrade pip\npython -m pip install -r requirements.txt\n\`\`\`\n\nThis setup has not been verified across operating systems. The results and code should be checked together before using the numbers in another report or presentation.
 
 ## Current status
 
